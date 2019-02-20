@@ -25,10 +25,7 @@ i.md-18 {
   height: 15px;
 }
 
-.comment {
-  width: 90%;
-}
-
-.bg-light-gray {
-  background-color: gray("300");
+.demo-post-comments {
+  max-height: 500px;
+  overflow: scroll;
 }
