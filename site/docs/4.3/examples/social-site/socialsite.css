@@ -1,0 +1,34 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.rating {
+  margin-left: -5px;
+  color: var(--orange);
+}
+
+i.md-18 {
+  font-size: 18px;
+}
+
+.bfologo {
+  fill: #e32;
+}
+
+.bfo {
+  width: auto;
+  height: 15px;
+}
+
+.comment {
+  width: 90%;
+}
+
+.bg-light-gray {
+  background-color: gray("300");
+}
