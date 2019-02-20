@@ -1,0 +1,16 @@
+<div class="card-body">
+  <button class="btn btn-light btn-sm">
+    <i class="fas fa-thumbs-up mr-1"></i>
+    <small class="font-weight-bold">UPVOTE</small>
+  </button>
+  <button class="btn btn-light btn-sm mr-1">
+    <i class="fas fa-share"></i>
+    <small class="font-weight-bold">SHARE</small>
+  </button>
+  {%- if include.showDownload -%}
+  <button class="btn btn-light btn-sm mr-1">
+    <i class="fas fa-download"></i>
+    <small class="font-weight-bold">DOWNLOAD</small>
+  </button>
+  {%- endif -%}
+</div>

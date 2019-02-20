@@ -5,11 +5,7 @@ extra_css: "socialsite.css"
 ---
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
-  <a class="navbar-brand" href="#"><img
-    src="http://decooda.com/wp-content/uploads/2017/04/logo.png"
-    height="40px"
-    width="auto"
-  /></a>
+  <a class="navbar-brand" href="#">Brand Logo</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -19,19 +15,19 @@ extra_css: "socialsite.css"
         <a class="nav-link initialism" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link initialism" href="#">Find Experts</a>
+        <a class="nav-link initialism" href="#">Link</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link initialism" href="#">Learning</a>
+        <a class="nav-link initialism" href="#">Link</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link initialism" href="#">Events</a>
+        <a class="nav-link initialism" href="#">Link</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link initialism" href="#">I'm an Expert</a>
+        <a class="nav-link initialism" href="#">Link</a>
       </li>
       <li class="nav-item">
-        <img class="avatar" src="http://www.placeimg.com/48/48/people" width="48" height="48" alt="">
+        <img class="rounded-circle" src="http://www.placeimg.com/48/48/people" width="48" height="48" alt="...">
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle initialism" href="#" id="dropdown01" data-toggle="dropdown" aria-expanded="false">John Doe</a>
@@ -51,7 +47,7 @@ extra_css: "socialsite.css"
   <div class="jumbotron">
     <div class="container">
       <h1 class="display-3">Hello, world!</h1>
-      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+      <p>This is a template with example page components. Use this as a starting point to create something more unique. </p>
       <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
     </div>
   </div>
@@ -69,10 +65,23 @@ extra_css: "socialsite.css"
       </div>
       <div class="col-lg-5">
         <div class="mb-3">
-          {% include text-post.html %}
+          {% include post.html content="This is the preview or main content area of the post. User experience product management metrics sales gen-z. Monetization business plan termsheet equity twitter direct mailing virality learning curve pivot. Success stock user experience
+          advisor ramen value gamification research & development" %}
         </div>
         <div class="mb-3">
-          {% include text-post-with-comment.html %}
+          {% include post.html content="This is the preview or main content area of the post. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Molestie at elementum eu facilisis sed odio morbi. Sit amet porttitor eget dolor morbi non arcu risus quis. Egestas egestas fringilla." showComments=true %}
+        </div>
+        <div class="mb-3">
+          {% include post.html content="This is an image post." image=true showDownload=true %}
+        </div>
+        {% capture media-content %}
+          {% include media-post.html title="This is a title" description="This is some description of the media that was uploaded" link="http://www.somelink.com" %}
+        {% endcapture %}
+        <div class="mb-3">
+          {% include post.html content="This is a post with an attachment or upload." media=media-content showDownload=true %}
+        </div>
+        <div class="mb-3">
+          {% include post.html content="This is how a post would look like if the user was signed in." allowComments=true %}
         </div>
       </div>
       <div class="col-lg-3">

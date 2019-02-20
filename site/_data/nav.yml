@@ -1,16 +1,3 @@
-- title: Getting started
-  pages:
-    - title: Introduction
-    - title: Download
-    - title: Contents
-    - title: Browsers & devices
-    - title: JavaScript
-    - title: Theming
-    - title: Build tools
-    # - title: Best practices # TODO: Write this content
-    - title: Webpack
-    - title: Accessibility
-
 - title: Layout
   pages:
     - title: Overview
@@ -53,6 +40,14 @@
     - title: Toasts
     - title: Tooltips
 
+- title: Decooda Components
+  pages:
+    - title: Text Post
+    - title: Image Post
+    - title: Media Post
+    - title: Comments
+    - title: List Group Cards
+
 - title: Utilities
   pages:
     - title: Borders
@@ -75,15 +70,3 @@
     - title: Vertical align
     - title: Visibility
 
-- title: Extend
-  pages:
-    - title: Approach
-    - title: Icons
-
-- title: About
-  pages:
-    - title: Overview
-    - title: Team
-    - title: Brand
-    - title: License
-    - title: Translations
