@@ -13,6 +13,16 @@
     - title: Tables
     - title: Figures
 
+- title: Decooda Components
+  pages:
+    - title: Text Post
+    - title: Image Post
+    - title: Media Post
+    - title: Image Cards
+    - title: Comments
+    - title: List Group Cards
+    - title: Templates
+
 - title: Components
   pages:
     - title: Alerts
@@ -39,14 +49,6 @@
     - title: Spinners
     - title: Toasts
     - title: Tooltips
-
-- title: Decooda Components
-  pages:
-    - title: Text Post
-    - title: Image Post
-    - title: Media Post
-    - title: Comments
-    - title: List Group Cards
 
 - title: Utilities
   pages:
