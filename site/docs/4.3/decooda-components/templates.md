@@ -11,7 +11,7 @@ The following page template includes a jumbotron and a 3 column grid to get star
 <div class="bd-example">
   <div class="bd-example-container">
     <div class="bd-example-container-header" style="background-color: #80bdff;"></div>
-    <div class="d-example-container-body d-flex flex-row justify-content-center p-2">
+    <div class="d-example-container-body d-flex flex-row justify-content-center p-2 rounded">
      <div class="d-example-container-col mx-1"></div>
      <div class="d-example-container-col-m mx-1"></div>
      <div class="d-example-container-col mx-1"></div>
