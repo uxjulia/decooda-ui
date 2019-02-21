@@ -410,3 +410,28 @@
     color: $gray-900; // Effectively the base text color
   }
 }
+
+.d-example-container-body {
+  height: 9rem;
+  background-color: #957bbe;
+  border-radius: .25rem;
+}
+.d-example-container-col {
+  width: 4rem;
+  height: 8rem;
+  background-color: #eee;
+}
+.d-example-container-col-m {
+  width: 6rem;
+  height: 8rem;
+  background-color: #eee;
+}
+
+.bfologo {
+  fill: #e32;
+}
+
+.bfo {
+  width: auto;
+  height: 15px;
+}

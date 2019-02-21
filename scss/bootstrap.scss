@@ -5,6 +5,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+// Custom variable overrides for Decooda
+@import "overrides";
+//
+
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -42,3 +46,5 @@
 @import "spinners";
 @import "utilities";
 @import "print";
+
+@import "custom";

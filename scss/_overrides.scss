@@ -1,0 +1,22 @@
+// Bootstrap overrides
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto");
+
+$blue: #1a70b8 !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 90%,
+  xl: 90%
+) !default;
+
+$font-family-base: "Montserrat", sans-serif !default;

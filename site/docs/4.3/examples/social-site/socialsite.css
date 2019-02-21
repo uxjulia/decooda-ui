@@ -1,0 +1,27 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.rating {
+  margin-left: -5px;
+  color: var(--orange);
+}
+
+.md-18 {
+  font-size: 18px;
+}
+
+.bfologo {
+  fill: #e32;
+}
+
+.bfo {
+  width: auto;
+  height: 15px;
+}
+
+.demo-post-comments {
+  max-height: 500px;
+  overflow: scroll;
+}

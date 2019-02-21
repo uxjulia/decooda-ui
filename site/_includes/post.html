@@ -1,0 +1,59 @@
+<div class="card">
+  <div class="card-header bg-white d-flex w-100 justify-content-between">
+    <div class="d-inline-flex w-100">
+      <div class="mr-1 d-flex align-items-center">
+        <img class="rounded-circle" src="http://www.placeimg.com/64/64/people" width="64" height="64" alt="A user avatar">
+      </div>
+      <div class="d-inline-flex flex-column align-items-start justify-content-center ml-3">
+        <div>
+          <span class="mb-1">Username Text</span>
+          <i class="fas fa-chevron-right mx-2 text-muted"></i>
+          <span class="text-primary">Group Name</span>
+        </div>
+        <p class="text-muted small mb-1">March 31 at 7:23 am</p>
+      </div>
+    </div>
+    <button class="btn text-muted m-0 py-0"><i class="fas fa-ellipsis-v"></i></button>
+  </div>
+  <div class="card-body">
+    <div>
+      {{ include.content }}
+    </div>
+  </div>
+
+  {%- if include.media -%}
+  {{ include.media }}
+  {%- endif -%}
+
+  {%- if include.image -%}
+  {% include image-post.html %}
+  {%- endif -%}
+
+  {% include post-buttons.html showDownload=include.showDownload %}
+
+
+  {%- if include.allowComments -%}
+  {% include comment-input.html %}
+  {%- endif -%}
+
+
+  {%- if include.showComments -%}
+  <div class="card-footer bg-white d-flex align-items-center justify-content-between">
+    <button class="btn text-muted p-0">Hide Comments <i class="fas fa-chevron-down text-muted mx-2"></i></button>
+    <span class="text-muted">10 comments</span>
+  </div>
+  <div class="demo-post-comments">
+    {% include comment.html %}
+    {% include comment.html %}
+    {% include comment.html %}
+    {% include comment.html %}
+    {% include comment.html %}
+    {% include comment.html %}
+  </div>
+  {%- else -%}
+  <div class="card-footer bg-white d-flex align-items-center justify-content-between">
+    <button class="btn text-muted p-0">Show Comments <i class="fas fa-chevron-right text-muted mx-2"></i></button>
+    <span class="text-muted">10 comments</span>
+  </div>
+  {%- endif -%}
+</div>
