@@ -18,7 +18,7 @@ Add the`.card-img-top` class to the image and `.rounded-0` to remove the border-
      <!-- Post text -->
     <img src="..." class="card-img-top rounded-0" alt="...">
   </div>
-  <div class="card-footer>
+  <div class="card-footer">
    <!-- Footer content -->
   </div>
 </div>
