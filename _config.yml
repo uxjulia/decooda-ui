@@ -14,7 +14,7 @@ destination:    ./_gh_pages
 host:           "localhost"
 port:           9001
 baseurl:        ""
-url:            "https://getbootstrap.com"
+url:            "https://decooda-ui.netlify.com"
 encoding:       UTF-8
 exclude:
   - docs/4.3/assets/scss/
@@ -50,11 +50,11 @@ download:
 cdn:
   # See https://www.srihash.org for info on how to generate the hashes
   css:              "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  css_hash:         "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  css_hash:         "sha384-Bl/BcW4s7x+8Xj/gqigsso/dRPXh6TzWw1df3MbgDXAyob/AOuKSzxMPI8S43fwq"
   js:               "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-  js_hash:          "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  js_hash:          "sha384-WbW6OjL49piBtrWdri3AFkjXHja9ubsZ9db4zwd3Zajfz6dsMJf2sjfQsxFNQ+Xm"
   js_bundle:        "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
-  js_bundle_hash:   "sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+  js_bundle_hash:   "sha384-tDh6Q6A+x6w0CTpOZMU1m4RE0u6NJRKwoxPmaRAxPNA+txNohRqtTa0SLqYuKhqi"
   jquery:           "https://code.jquery.com/jquery-3.3.1.slim.min.js"
   jquery_hash:      "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
   popper:           "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
