@@ -14,14 +14,10 @@ toc: true
   <div class="d-inline-flex w-100">
     <img class="rounded-circle mr-1 align-self-start" src="..."  alt="...">
     <div class="d-inline-flex flex-column align-items-start justify-content-center ml-3">
-      <span class="mb-1">
-       <!-- Comment user -->
-      </span>
-      <p class="text-muted small mb-2">
-       <!-- Comment date -->
-      </p>
+      <span class="mb-1">Username</span>
+      <p class="text-muted small mb-2">April 1 at 9:35 am</p>
       <div class="p-3 comment bg-light rounded">
-        <!-- Comment content -->
+        This is a short comment.
       </div>
     </div>
   </div>

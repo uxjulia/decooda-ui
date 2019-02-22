@@ -16,13 +16,20 @@ Add the`.card-img-top` class to the image and `.rounded-0` to remove the border-
 
 {% highlight html %}
 <div class="card-body">
-  <div class="card d-flex-inline flex-row w-100" style="border-width: 2px;">
-    <div style="height:100%; max-width: 35%;">
-      <!-- The media image / preview -->
-      <img src="..." class="card-img-top rounded-0" alt="...">
+  <div class="card rounded-0 d-flex-inline flex-row w-100" style="border-width: 2px;">
+    <div style="max-width: 35%;">
+      <img src="/path/to/preview/image.png" class="card-img-top rounded-0" alt="...">
     </div>
     <div class="card-body d-flex flex-column justify-content-between">
-       <!-- Media title, description, etc. -->
+      <div>
+        Some Title
+      </div>
+      <div>
+       Some description text..
+      </div>
+      <div>
+        <small><a href="/link/to/external/site.com">Some Link</a></small>
+      </div>
     </div>
   </div>
 </div>

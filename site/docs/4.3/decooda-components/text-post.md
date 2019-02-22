@@ -15,25 +15,23 @@ toc: true
   <div class="card-header bg-white d-flex w-100 justify-content-between">
     <div class="d-inline-flex w-100">
       <div class="mr-1 d-flex align-items-center">
-        <!-- User avatar goes here  -->
-        <img class="rounded-circle" src="..." alt="...">
+        <img class="rounded-circle" src="/path/to/avatar.png" alt="...">
       </div>
       <div class="d-inline-flex flex-column align-items-start justify-content-center ml-3">
         <div>
-          <!-- Markup for a user posting to a group -->
           <span class="mb-1">Username Text</span>
           <i class="fas fa-chevron-right mx-2 text-muted"></i>
           <span class="text-primary">Group Name</span>
         </div>
         <p class="text-muted small mb-1">
-          <!-- Date of the post goes here -->
+         March 31 at 7:23 am
         </p>
       </div>
     </div>
     <button class="btn text-muted m-0 py-0"><i class="fas fa-ellipsis-v"></i></button>
   </div>
   <div class="card-body">
-     <!-- Content of post goes here -->
+     It was a dark and stormy night...
   </div>
  <div class="card-footer bg-white d-flex align-items-center justify-content-between">
     <button class="btn text-muted p-0">Show Comments <i class="fas fa-chevron-right text-muted mx-2"></i></button>

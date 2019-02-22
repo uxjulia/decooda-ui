@@ -21,7 +21,7 @@ Add the `.list-group-flush` class to `.list-group` when placing a list-group wit
 <div class="card">
   <div class="card-header bg-white d-flex w-100 justify-content-between">
     <span class="initialism">
-     <!-- Card title -->
+     A Fancy Card Title
     </span>
     <button class="btn text-muted m-n2"><i class="fas fa-ellipsis-v"></i></button>
   </div>
@@ -29,13 +29,16 @@ Add the `.list-group-flush` class to `.list-group` when placing a list-group wit
     <li class="list-group-item border-0">
       <div class="d-inline-flex w-100">
          <div class="mr-1 d-flex align-items-center">
-            <!-- Avatar or Icon -->
+           <img class="rounded-circle" src="/path/to/avatar.png" alt="...">
           </div>
         <div class="d-inline-flex flex-column align-items-start ml-3">
-             <!--List item lines 1,2, or 3 -->
+            <p class="mb-1">Username</p>
+            <p class="text-muted small mb-1">Username Title</p>
         </div>
         <div class="d-flex mr-0 ml-auto align-items-center">
-           <!--optional button or text -->
+          <div class="d-flex mr-0 ml-auto align-items-center">
+            <button class="btn btn-outline-primary">Some Button</button>
+          </div>
         </div>
       </div>
     </li>

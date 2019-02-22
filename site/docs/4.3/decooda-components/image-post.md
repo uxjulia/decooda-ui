@@ -15,11 +15,12 @@ Add the`.card-img-top` class to the image and `.rounded-0` to remove the border-
 <div class="card">
   <div class="card-header">...</div>
   <div class="card-body">
-     <!-- Post text -->
-    <img src="..." class="card-img-top rounded-0" alt="...">
+    Some post content...
+    <img src="/path/to/image.png" class="card-img-top rounded-0" alt="...">
   </div>
   <div class="card-footer">
-   <!-- Footer content -->
+    <button class="btn text-muted p-0">Show Comments <i class="fas fa-chevron-right text-muted mx-2"></i></button>
+    <span class="text-muted">10 comments</span>
   </div>
 </div>
 
