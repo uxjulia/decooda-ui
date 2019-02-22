@@ -89,21 +89,23 @@ extra_css: "socialsite.css"
         <div class="mb-3">
           {% include post.html content="This is a post with an attachment or upload." media=media-content showDownload=true %}
         </div>
-        <!--<div class="mb-3">-->
-          <!--{% include post.html content="This is how a post would look like if the user was signed in." allowComments=true %}-->
-        <!--</div>-->
+        {%- if signedIn -%}
+        <div class="mb-3">
+          {% include post.html content="This is how a post would look like if the user was signed in." allowComments=true %}
+        </div>
+        {%- endif -%}
       </div>
       <div class="col-lg-3">
         <div class="mb-3">
           {% include story.html demo=true %}
         </div>
+        <footer class="mb-3">
+          <p><small>EXPLORE  |  LEARN MORE   |  TERMS & PRIVACY POLICY</small></p>
+          <p><small>&copy; 2019 Decooda International Inc. All rights reserved.</small></p>
+        </footer>
       </div>
     </div>
     <hr>
   </div> <!-- /container -->
 
 </main>
-
-<footer class="container">
-  <p>&copy; Company 2017-{{ site.time | date: "%Y" }}</p>
-</footer>

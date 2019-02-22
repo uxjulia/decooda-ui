@@ -51,10 +51,10 @@ The following page template includes a jumbotron and a 3 column grid to get star
             <a class="nav-link initialism" href="#">Link</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link initialism" href="#">Link</a>
+            <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
           </li>
           <li class="nav-item">
-            <img class="rounded-circle" src="http://www.placeimg.com/48/48/people" width="48" height="48" alt="...">
+            <a class="nav-link initialism" href="#">Create Account</i></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle initialism" href="#" id="dropdown01" data-toggle="dropdown" aria-expanded="false">John Doe</a>
@@ -92,9 +92,6 @@ The following page template includes a jumbotron and a 3 column grid to get star
         <hr>
       </div> <!-- /container -->
     </main>
-    <footer class="container">
-      <p>&copy; Company 2017-{{ site.time | date: "%Y" }}</p>
-    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="./path/to/jquery-3.3.1.js"></script>

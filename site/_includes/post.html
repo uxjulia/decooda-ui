@@ -40,7 +40,7 @@
   {%- if include.showComments -%}
   <div class="card-footer bg-white d-flex align-items-center justify-content-between">
     <button class="btn text-muted p-0">Hide Comments <i class="fas fa-chevron-down text-muted mx-2"></i></button>
-    <span class="text-muted">10 comments</span>
+    <span class="text-muted">10 comments <span class="badge badge-pill badge-info">48</span> upvotes</span>
   </div>
   <div class="demo-post-comments">
     {% include comment.html %}
@@ -53,7 +53,7 @@
   {%- else -%}
   <div class="card-footer bg-white d-flex align-items-center justify-content-between">
     <button class="btn text-muted p-0">Show Comments <i class="fas fa-chevron-right text-muted mx-2"></i></button>
-    <span class="text-muted">10 comments</span>
+    <div><span class="text-muted">10 comments  <span class="badge badge-pill badge-info">48</span> upvotes</span></div>
   </div>
   {%- endif -%}
 </div>

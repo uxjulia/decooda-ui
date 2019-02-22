@@ -43,5 +43,6 @@ Add the `.list-group-flush` class to `.list-group` when placing a list-group wit
       </div>
     </li>
    </ul>
+   <div class="card-footer bg-white" style="min-height:35px;"></div>
 </div>
 {% endhighlight %}
