@@ -6,14 +6,15 @@ group: decooda-components
 toc: true
 ---
  {% capture media-content %}
-    {% include media-post.html title="This is a title" description="This is some description of the media that was uploaded" link="http://www.somelink.com" %}
+    {% include decooda/media-post.html title="This is a title" description="This is some description of the media that was uploaded" link="http://www.somelink.com" %}
 {% endcapture %}
 <div class="mb-3" style="max-width:50rem">
-  {% include post.html content="This is a post with an attachment or upload." media=media-content showDownload=true %}
+  {% include decooda/post.html content="This is a post with an attachment or upload." media=media-content showDownload=true %}
 </div>
 
-Add the`.card-img-top` class to the image and `.rounded-0` to remove the border-radius.
+Add the`.card-img-top` and `.rounded-0` classes to the `<img>` so that it renders properly.
 
+<div style="max-width:50rem">
 {% highlight html %}
 <div class="card-body">
   <div class="card rounded-0 d-flex-inline flex-row w-100" style="border-width: 2px;">
@@ -33,5 +34,5 @@ Add the`.card-img-top` class to the image and `.rounded-0` to remove the border-
     </div>
   </div>
 </div>
-
 {% endhighlight %}
+</div>

@@ -7,9 +7,10 @@ redirect_from: "/docs/4.3/decooda-components/"
 toc: true
 ---
 <div class="mb-3" style="max-width:50rem">
-  {% include post.html content="This is the preview or main content area of the post. User experience product management metrics sales gen-z. Monetization business plan termsheet equity twitter direct mailing virality learning curve pivot. Success stock user experience advisor ramen value gamification research & development" %}
+  {% include decooda/post.html content="This is the preview or main content area of the post. User experience product management metrics sales gen-z. Monetization business plan termsheet equity twitter direct mailing virality learning curve pivot. Success stock user experience advisor ramen value gamification research & development" %}
 </div>
-          
+
+<div style="max-width:50rem">
 {% highlight html %}
 <div class="card">
   <div class="card-header bg-white d-flex w-100 justify-content-between">
@@ -39,3 +40,4 @@ toc: true
   </div>
 </div>
 {% endhighlight %}
+</div>

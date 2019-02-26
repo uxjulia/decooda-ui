@@ -6,9 +6,10 @@ group: decooda-components
 toc: true
 ---
 <div class="mb-3" style="max-width:50rem">
-{% include comment.html %}
+{% include decooda/comment.html %}
 </div>
 
+<div style="max-width:50rem">
 {% highlight html %}
 <div class="card-body">
   <div class="d-inline-flex w-100">
@@ -23,3 +24,4 @@ toc: true
   </div>
 </div>
 {% endhighlight %}
+</div>

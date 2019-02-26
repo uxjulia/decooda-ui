@@ -7,16 +7,17 @@ toc: true
 ---
 A custom card with three lines..
 <div class="mb-3" style="max-width:24rem">
- {% include three-line-list.html %}
+ {% include decooda/three-line-list.html %}
 </div>
 
 A custom card with two lines..
 <div class="mb-3" style="max-width:24rem">
- {% include two-line-list.html %}
+ {% include decooda/two-line-list.html %}
 </div>
 
 Add the `.list-group-flush` class to `.list-group` when placing a list-group within a card for proper rendering.
 
+<div style="max-width:50rem">
 {% highlight html %}
 <div class="card">
   <div class="card-header bg-white d-flex w-100 justify-content-between">
@@ -46,3 +47,4 @@ Add the `.list-group-flush` class to `.list-group` when placing a list-group wit
    <div class="card-footer bg-white" style="min-height:35px;"></div>
 </div>
 {% endhighlight %}
+<div style="max-width:50rem">

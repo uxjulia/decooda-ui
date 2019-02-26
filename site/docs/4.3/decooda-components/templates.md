@@ -19,6 +19,7 @@ The following page template includes a jumbotron and a 3 column grid to get star
   </div>
 </div>
 
+<div style="max-width:50rem">
 {% highlight html %}
 <!doctype html>
 <html lang="en">
@@ -99,5 +100,5 @@ The following page template includes a jumbotron and a 3 column grid to get star
     <script src="./path/to/bootstrap.min.js"></script>
   </body>
 </html>
-
 {% endhighlight %}
+</div>

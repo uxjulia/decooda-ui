@@ -7,9 +7,10 @@ toc: true
 ---
 
 <div class="mb-3" style="max-width:30rem">
-  {% include story.html %}
+  {% include decooda/story.html %}
 </div>
 
+<div style="max-width:50rem">
 {% highlight html %}
 <div class="card">
   <div class="card-header bg-white d-flex w-100 justify-content-between">
@@ -59,3 +60,4 @@ toc: true
 </div>
 
 {% endhighlight %}
+</div>

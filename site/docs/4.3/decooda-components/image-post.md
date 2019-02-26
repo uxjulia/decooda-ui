@@ -6,11 +6,12 @@ group: decooda-components
 toc: true
 ---
 <div class="mb-3" style="max-width:50rem">
- {% include post.html content="This is an image post." image=true showDownload=true %}
+ {% include decooda/post.html content="This is an image post." image=true showDownload=true %}
 </div>
 
-Add the`.card-img-top` class to the image and `.rounded-0` to remove the border-radius.
+Add the`.card-img-top` and `.rounded-0` classes to the `<img>` so that it renders properly.
 
+<div style="max-width:50rem">
 {% highlight html %}
 <div class="card">
   <div class="card-header">...</div>
@@ -23,5 +24,5 @@ Add the`.card-img-top` class to the image and `.rounded-0` to remove the border-
     <span class="text-muted">10 comments</span>
   </div>
 </div>
-
 {% endhighlight %}
+</div>

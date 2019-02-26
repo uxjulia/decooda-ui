@@ -26,14 +26,14 @@
   {%- endif -%}
 
   {%- if include.image -%}
-  {% include image-post.html %}
+  {% include decooda/image-post.html %}
   {%- endif -%}
 
-  {% include post-buttons.html showDownload=include.showDownload %}
+  {% include decooda/post-buttons.html showDownload=include.showDownload %}
 
 
   {%- if include.allowComments -%}
-  {% include comment-input.html %}
+  {% include decooda/comment-input.html %}
   {%- endif -%}
 
 
@@ -43,12 +43,12 @@
     <span class="text-muted">10 comments <span class="badge badge-pill badge-info">48</span> upvotes</span>
   </div>
   <div class="demo-post-comments">
-    {% include comment.html %}
-    {% include comment.html %}
-    {% include comment.html %}
-    {% include comment.html %}
-    {% include comment.html %}
-    {% include comment.html %}
+    {% include decooda/comment.html %}
+    {% include decooda/comment.html %}
+    {% include decooda/comment.html %}
+    {% include decooda/comment.html %}
+    {% include decooda/comment.html %}
+    {% include decooda/comment.html %}
   </div>
   {%- else -%}
   <div class="card-footer bg-white d-flex align-items-center justify-content-between">
