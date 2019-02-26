@@ -426,6 +426,11 @@
   background-color: #eee;
 }
 
+.demo-post-comments {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
 .bfologo {
   fill: #e32;
 }

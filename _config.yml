@@ -25,10 +25,8 @@ plugins:
   - jekyll-toc
 
 # Social
-title:              Bootstrap
+title:              Decooda Bootstrap
 description:        "The most popular HTML, CSS, and JS library in the world."
-twitter:            getbootstrap
-authors:            "Mark Otto, Jacob Thornton, and Bootstrap contributors"
 social_image_path:  /docs/4.3/assets/brand/bootstrap-social.png
 social_logo_path:   /docs/4.3/assets/brand/bootstrap-social-logo.png
 
